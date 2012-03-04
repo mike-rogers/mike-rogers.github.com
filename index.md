@@ -1,7 +1,7 @@
 ---
 layout: page
-title: donk
-tagline: blarg
+title: Uninportant crap
+tagline: Usually about software
 ---
 
 ## Posts

@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : blog
-tagline: i don''t know what a tagline is
+title : Mike writes about software
+tagline: A blog wherein Mike writes about software
 author :
   name : Mike Rogers
   email : r.m.rogers@gmail.com
