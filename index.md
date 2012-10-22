@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Uninportant crap
-tagline: Usually about software
+title: A Blog
+tagline: Sometimes about software
 ---
 
 ## Posts
