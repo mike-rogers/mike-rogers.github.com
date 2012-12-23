@@ -32,7 +32,7 @@ The week sped by, and I was startled to see my productivity increase. The extra 
 
 The week ended. The software went to the testers. Everyone was amazed. I never went back to the Old Way.
 
-But I did put out an updated resume and start looking elsewhere. To my mind, my nascient family deserved more stability, and needed me to be there for them instead of coming home every day and collapsing from exhaustion.
+But I did put out an updated resume and start looking elsewhere. To my mind, my nascent family deserved more stability, and needed me to be there for them instead of coming home every day and collapsing from exhaustion.
 
 And I was angry. Furious that this manager, this guy who was hired to deal with flesh-and-blood humans, could be so capricious with termination, holding my job out like a carrot on a stick. I couldn't look at him without becoming angry, and during my exit interview I named him as the sole reason for my leaving.
 
