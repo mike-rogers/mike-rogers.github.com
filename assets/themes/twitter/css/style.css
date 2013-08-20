@@ -68,4 +68,17 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
+
+/* defined by mike */
+p.aside {
+    border: 1px solid lightblue;
+    margin: 1em;
+    padding: 1em;
+    background-color: aliceblue;
+}
+
+sup.citation > span {
+    color: #0645ad;
+    font-style: italic;
+    cursor: pointer;
+}
