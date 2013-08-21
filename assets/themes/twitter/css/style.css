@@ -82,3 +82,12 @@ sup.citation > span {
     font-style: italic;
     cursor: pointer;
 }
+
+thead, tbody, tr, th, td {
+   border: 1px solid;
+   padding: 0.5em;
+}
+
+table {
+   margin-bottom: 2em;
+}
