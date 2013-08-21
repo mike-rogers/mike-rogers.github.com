@@ -28,21 +28,21 @@ There are a few different testing frameworks that run in a browser. Of those, I 
 
 The two frameworks each had their plusses and minuses. I've created a handy table to outline why I chose Mocha over Jasmine completely independently and without any input from my wife.
 
-| Question | Jasmine | Mocha |
-| - | - | - |
-| Has a decent DSL for describing tests | Yes | Yes |
-| Has `before` and `after` hooks per test | Yes | Yes |
-| Has `before` and `after` hooks per group of tests | No | Yes |
-| Has expressive assertion DSL | Yes | No |
-| Has ANY assertion DSL | Uh, yes? | STILL NO |
-| Wow. Like, *no* `assert` function? | I do. | :-( |
-| Has PLUGGABLE assertion DSL? | No | YES! That I **DO** have! |
-| But seriously, no assertions by default? | Well, **I** do... | :-( |
-| All right, how about test doubles? | Got those! | Well... |
-| *Seriously*? No test doubles either? | :-D | Well... |
-| Is it at least simple to integrate into a browser? | Of course! | Define "simple" |
-| ... SIMPLE. You know, "not difficult"? | Look, he's sweating! | A few lines, yeah, but order counts! |
-| Hmmm. Well, will my wife approve? | No. | She **loves** mochas! |
+Question | Jasmine | Mocha
+- | - | -
+Has a decent DSL for describing tests | Yes | Yes
+Has `before` and `after` hooks per test | Yes | Yes
+Has `before` and `after` hooks per group of tests | No | Yes
+Has expressive assertion DSL | Yes | No
+Has ANY assertion DSL | Uh, yes? | STILL NO
+Wow. Like, *no* `assert` function? | I do. | :-(
+Has PLUGGABLE assertion DSL? | No | YES! That I **DO** have!
+But seriously, no assertions by default? | Well, **I** do... | :-(
+All right, how about test doubles? | Got those! | Well...
+*Seriously*? No test doubles either? | :-D | Well...
+Is it at least simple to integrate into a browser? | Of course! | Define "simple"
+... SIMPLE. You know, "not difficult"? | Look, he's sweating! | A few lines, yeah, but order counts!
+Hmmm. Well, will my wife approve? | No. | She **loves** mochas!
 
 You can see why Mocha is the clear winner. *cough*.
 
