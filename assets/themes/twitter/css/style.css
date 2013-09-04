@@ -77,6 +77,14 @@ p.aside {
     background-color: aliceblue;
 }
 
+p.letter {
+    border: 1px solid lightblue;
+    margin: 1em;
+    padding: 1em;
+    background-color: lightyellow;
+    font-style: italic;
+}
+
 sup.citation > span {
     color: #0645ad;
     font-style: italic;
@@ -90,4 +98,30 @@ thead, tbody, tr, th, td {
 
 table {
    margin-bottom: 2em;
+}
+
+p.dialog {
+    margin: 0px;
+    padding: 0.5em;
+}
+
+p.dialog:nth-child(odd) {
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+p.dialog:nth-child(even) {
+    background-color: lightgray;
+}
+
+p.dialog span {
+    margin-left: 5em;
+    display: block;
+}
+
+p.dialog strong {
+    display: inline-block;
+    width: 5em;
+    float: left;
+    height: 100%;
 }
