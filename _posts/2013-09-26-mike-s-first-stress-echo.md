@@ -71,7 +71,7 @@ Well, caffeine and SSRIs both impact the sympathetic nervous system, and sudden 
 
 I guess the SSRIs and caffeine worked, because the doctor came back and told me I was being discharged and that my heart is fine. He cleared me for walking, jogging, weight-lifting... whatever I felt comfortable doing.
 
-"Hella skiing?" I offered.
+"Heli-skiing?" I offered.
 
 "Probably not," he suggested.
 
