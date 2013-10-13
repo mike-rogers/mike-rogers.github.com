@@ -26,7 +26,7 @@ José and I had the following conversation:
 
 <p class="dialog"><strong>[M]</strong> <span>All right, here we go! ¿Cómo puedo ayudarte?</span></p>
 
-<p class="dialog"><strong>[J]</strong> <span>Um, I don't actually speak Spanish? I'm named after my mother's father, who was from Argentina and imigrated with his family when he was 8.</span></p>
+<p class="dialog"><strong>[J]</strong> <span>Um, I don't actually speak Spanish? I'm named after my mother's father, who was from Argentina and immigrated with his family when he was 8.</span></p>
 
 <p class="dialog"><strong>[M]</strong> <span>¿Tienes preguntas sobre la Shara-Punta?</span></p>
 
