@@ -100,26 +100,26 @@ table {
    margin-bottom: 2em;
 }
 
-p.dialog {
+.dialog {
     margin: 0px;
     padding: 0.5em;
 }
 
-p.dialog:nth-child(odd) {
+.dialog:nth-of-type(odd) {
     font-weight: bold;
     background-color: aliceblue;
 }
 
-p.dialog:nth-child(even) {
+.dialog:nth-of-type(even) {
     background-color: lightgray;
 }
 
-p.dialog span {
+.dialog span {
     margin-left: 5em;
     display: block;
 }
 
-p.dialog strong {
+.dialog strong {
     display: inline-block;
     width: 5em;
     float: left;
