@@ -1,0 +1,53 @@
+---
+- type: research
+  name: Circuits.IO
+  href: "http://www.circuits.io/"
+  description: "Wanted to make a couple of PCBs but couldn't find a decent free tool to generate the Gerber files. Jon Fuller pointed me here. Thanks, Jon!"
+  status: "Done"
+  output:
+    - { name: "Raspberry Pi XBee Expansion", href: "http://www.circuits.io/circuits/5543" }
+    - { name: "Pong Switch", href: "http://www.circuits.io/circuits/5505" }
+
+- type: book
+  name: "SCRUM Mastery"
+  href: "http://www.amazon.com/Scrum-Mastery-From-Great-Servant-Leadership/dp/0957587406"
+  description: "Book Club; discussions on servant leadership and how the lessons in the book apply to former and current teams."
+  status: "Doing"
+
+- type: book
+  name: "Agile Testing"
+  href: "http://www.amazon.com/Agile-Testing-Practical-Guide-Testers/dp/0321534468"
+  description: "How do you get Test Engineers to integrate more tightly with the team? Breaking down the silos between dev and test."
+  status: "Doing"
+
+- type: book
+  name: "Getting to Yes"
+  href: "http://www.amazon.com/Getting-Yes-Negotiating-Agreement-Without/dp/0395631246"
+  description: "Recommended to me to help handle tough discussions between team members."
+  status: "To Do"
+
+- type: blog
+  name: "PowerShell and Psake"
+  description: "A .NET alternative to Ruby Rakefiles, we're using Psake on a project and it needs to be less demystified."
+  href: "http://visualstudiomagazine.com/articles/2011/07/28/wcoss_coded-builds.aspx"
+  status: "To Do"
+
+- type: project
+  name: "Ping-Pong Platform"
+  href: "https://github.com/sep/ping-pong-platform"
+  description: "What happens when Engineers get tired of walking? Over-engineering, that's what."
+  status: "Doing"
+  output:
+    - { name: "Initial Article", href: "http://localhost:4000/2013/09/14/amateur-hardware-hackery/" }
+
+- type: book
+  name: "Programming Erlang"
+  href: "http://pragprog.com/book/jaerlang2/programming-erlang"
+  description: "I wanted to get a grasp on what sort of problems Erlang was good at addressing, so I picked up a copy of this book."
+  status: "To Do"
+
+- type: book
+  name: "Seven Web Frameworks in Seven Weeks"
+  href: "http://pragprog.com/book/7web/seven-web-frameworks-in-seven-weeks"
+  description: "Started working on a web-based project, realized I haven't looked into this area in a couple of years. Some interesting stuff has happened recently!"
+  status: "To Do"

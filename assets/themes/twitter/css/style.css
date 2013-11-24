@@ -125,3 +125,43 @@ table {
     float: left;
     height: 100%;
 }
+
+table.pdu_board td {
+    border-style: none solid;
+}
+
+table.pdu_board tbody tr {
+    border: none;
+}
+
+div.pdu {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+}
+
+div.pdu_book {
+    background-color: lightcyan;
+}
+
+div.pdu_blog {
+    background-color: lightsalmon;
+}
+
+div.pdu_project {
+    background-color: khaki;
+}
+
+div.pdu_research {
+    background-color: lavender;
+}
+
+div.pdu_key {
+    padding: 0.25em;
+    border: 1px solid black;
+    width: 6em;
+    text-align: center;
+    display: inline-block;
+}
