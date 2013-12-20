@@ -12,7 +12,7 @@
   name: "SCRUM Mastery"
   href: "http://www.amazon.com/Scrum-Mastery-From-Great-Servant-Leadership/dp/0957587406"
   description: "Book Club; discussions on servant leadership and how the lessons in the book apply to former and current teams."
-  status: "Doing"
+  status: "Done"
 
 - type: book
   name: "Agile Testing"
@@ -50,4 +50,15 @@
   name: "Seven Web Frameworks in Seven Weeks"
   href: "http://pragprog.com/book/7web/seven-web-frameworks-in-seven-weeks"
   description: "Started working on a web-based project, realized I haven't looked into this area in a couple of years. Some interesting stuff has happened recently!"
+  status: "To Do"
+
+- type: project
+  name: "Philips Hue Bulb Jenkins Plugin"
+  href: "https://github.com/mike-rogers/hue-light-plugin"
+  description: "We got a Philips Hue bulb to use as a build indicator on this project, but we have multiple builds we need to consider. Modifying the plugin to track a group of builds instead of a single build."
+  status: "Doing"
+
+- type: project
+  name: "REST Endpoint Mocker"
+  description: "Using Selenium in C#, there seems to be no simple way to mock out AJAX calls to REST services. Is there a decent way to mock endpoints?"
   status: "To Do"
