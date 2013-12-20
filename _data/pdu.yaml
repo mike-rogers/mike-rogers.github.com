@@ -62,3 +62,9 @@
   name: "REST Endpoint Mocker"
   description: "Using Selenium in C#, there seems to be no simple way to mock out AJAX calls to REST services. Is there a decent way to mock endpoints?"
   status: "To Do"
+
+- type: book
+  name: "Programming Entity Framework: DbContext"
+  href: "http://www.amazon.com/gp/product/1449312969"
+  description: "Entity Framework is playing a big role on my current project. I've used other ORMs, but this one seems... special. READING!"
+  status: "To Do"
