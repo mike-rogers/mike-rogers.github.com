@@ -38,7 +38,8 @@
   description: "What happens when Engineers get tired of walking? Over-engineering, that's what."
   status: "Doing"
   output:
-    - { name: "Initial Article", href: "http://localhost:4000/2013/09/14/amateur-hardware-hackery/" }
+    - { name: "Initial Article", href: "http://www.sep.com/sep-blog/2013/09/09/sep-ping-pong-and-pdus/" }
+    - { name: "Amateur Hardware Hackery", href: "http://mike-rogers.github.io/2013/09/14/amateur-hardware-hackery/" }
 
 - type: book
   name: "Programming Erlang"
@@ -51,12 +52,6 @@
   href: "http://pragprog.com/book/7web/seven-web-frameworks-in-seven-weeks"
   description: "Started working on a web-based project, realized I haven't looked into this area in a couple of years. Some interesting stuff has happened recently!"
   status: "To Do"
-
-- type: project
-  name: "Philips Hue Bulb Jenkins Plugin"
-  href: "https://github.com/mike-rogers/hue-light-plugin"
-  description: "We got a Philips Hue bulb to use as a build indicator on this project, but we have multiple builds we need to consider. Modifying the plugin to track a group of builds instead of a single build."
-  status: "Doing"
 
 - type: project
   name: "REST Endpoint Mocker"
