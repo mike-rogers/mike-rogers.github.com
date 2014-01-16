@@ -80,7 +80,7 @@
 - type: project
   name: "Jenkins Hue Build Monitor"
   href: "https://github.com/sep/jenkins-hue-monitor"
-  description: ""
+  description: "A simple Ruby project that can be added to Jenkins as a Job to monitor a group of Jenkins Jobs and notify a Philips Hue bulb to update state based on failures."
   status: "Done"
   output:
     - { name: "New SEP GitHub Project: Jenkins Hue Build Monitor", href: "http://www.sep.com/sep-blog/2014/01/16/new-sep-github-project-jenkins-hue-build-monitor/" }
