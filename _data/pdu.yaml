@@ -68,3 +68,19 @@
   href: "http://www.amazon.com/gp/product/1449312969"
   description: "Entity Framework is playing a big role on my current project. I've used other ORMs, but this one seems... special. READING!"
   status: "To Do"
+
+- type: project
+  name: "TFS Manual Build Creator"
+  href: "https://github.com/sep/TfsManualBuildCreator"
+  description: "Simple command-line utility that connects to a TFS instance and creates a manual build that points to a specified drop point on a network share. For use with MTM integration."
+  status: "Done"
+  output:
+    - { name: "New SEP GitHub Project: TFS Manual Build Creator", href: "http://www.sep.com/sep-blog/2014/01/11/new-sep-github-project-tfs-manual-build-creator/" }
+
+- type: project
+  name: "Jenkins Hue Build Monitor"
+  href: "https://github.com/sep/jenkins-hue-monitor"
+  description: ""
+  status: "Done"
+  output:
+    - { name: "New SEP GitHub Project: Jenkins Hue Build Monitor", href: "http://www.sep.com/sep-blog/2014/01/16/new-sep-github-project-jenkins-hue-build-monitor/" }
