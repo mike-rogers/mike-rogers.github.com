@@ -84,4 +84,6 @@
   name: "NTLM Proxy"
   href: "https://github.com/mike-rogers/NtlmProxy"
   description: "I needed a way to proxy credentials in a testing context so the team could use PhantomJS. The approach ended up not working for us because PhantomJS doesn't play nicely with iFrames, but someone might use it."
-  status: "Doing"
+  status: "Done"
+  output:
+    - { name: "NTLM and Proxying, Why Not", href: "http://mike-rogers.github.io/2014/03/09/ntlm-and-proxying-why-not/" }
