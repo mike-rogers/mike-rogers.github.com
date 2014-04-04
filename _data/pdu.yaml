@@ -87,3 +87,15 @@
   status: "Done"
   output:
     - { name: "NTLM and Proxying, Why Not", href: "http://mike-rogers.github.io/2014/03/09/ntlm-and-proxying-why-not/" }
+
+- type: book
+  name: "Coaching for Improved Work Performance"
+  href: "http://www.amazon.com/Coaching-Improved-Performance-Revised-Edition/dp/0071352937"
+  description: "Recommended to help focus mentoring efforts and understand the motivation of various team members."
+  status: "Doing"
+
+- type: project
+  name: "Arduino Fade"
+  href: "https://github.com/mike-rogers/arduino-fade"
+  description: "Having finally caved and bought an Arduino, I wanted to see what it would take to create a testable environment."
+  status: "Doing"
