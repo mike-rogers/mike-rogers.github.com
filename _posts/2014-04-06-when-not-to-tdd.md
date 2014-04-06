@@ -11,7 +11,7 @@ I used to hate Test Driven Development.
 
 When I was first introducted to TDD, it was by a zealot coworker that didn't really know what he was doing. "It's great!" he yelled (he always seemed to be yelling). "You write all your tests first!" At that point in my life I had a difficult enough time writing the tests _second_, so his proposition sounded vaguely stupid and I ignored it.
 
-Then I was taught TDD by [David Hussman](https://twitter.com/davidhussman). The lights came on. I saw that TDD was a method for writing cleaner, better organized code; testing was more of an ancillary benefit. I have been a huge proponent of TDD since that day, and my code has never been cleaner.
+Then I was taught TDD by the amazing folks at [DevJam](http://devjam.com/). The lights came on. I saw that TDD was a method for writing cleaner, better organized code; testing was more of an ancillary benefit. I have been a huge proponent of TDD since that day, and my code has never been cleaner.
 
 But!
 
