@@ -11,7 +11,7 @@ Key:
 
 * <div class="pdu_key" style="background-color: lightcyan;">Light Cyan</div>: Books
 * <div class="pdu_key" style="background-color: khaki;">Khaki</div>: Projects
-* <div class="pdu_key" style="background-color: lavender;">Lavender</div>: Random Research
+* <div class="pdu_key" style="background-color: lavender;">Lavender</div>: Random Research or Presentation
 * <div class="pdu_key" style="background-color: lightsalmon;">Light Salmon</div>: Blog Articles
 
 Each item has a name (with an optional hyperlink to source material), a description (briefly, provided by me), and some stuff I've created based on whatever I've learned (as bulleted items).

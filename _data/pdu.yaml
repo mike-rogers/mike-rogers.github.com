@@ -99,3 +99,23 @@
   href: "https://github.com/mike-rogers/arduino-fade"
   description: "Having finally caved and bought an Arduino, I wanted to see what it would take to create a testable environment."
   status: "Doing"
+
+- type: book
+  name: "Punished by Rewards"
+  href: "http://www.amazon.com/Punished-Rewards-Trouble-Incentive-Praise/dp/0618001816"
+  description: "Are you destroying someone's intrensic motivation by offering rewards for behavior? Probably. Also, you're screwing up your children."
+  status: "Done"
+
+- type: book
+  name: "How Google Tests Software"
+  href: "http://www.amazon.com/Google-Tests-Software-James-Whittaker/dp/0321803027"
+  description: "Find out everything you wanted to know you could do to test software if you were a multi-billion dollar product company."
+  status: "Done"
+
+- type: research
+  name: "IUPUI Computer Science Day"
+  href: "http://science.iupui.edu/computerscienceday"
+  description: "IUPUI holds an annual Computer Science Day, where students from local highschools are invited to participate. I was on a panel to discuss CS careers."
+  status: "Done"
+  output:
+    - { name: "Tweet from IUPUI", href: "https://twitter.com/IUPUIScience/status/447065679359799296" }
