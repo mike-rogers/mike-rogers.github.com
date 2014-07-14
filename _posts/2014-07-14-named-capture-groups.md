@@ -98,21 +98,16 @@ Let's see that example again with named capture groups:
 {% highlight ruby %}
     matches = some_text.match(%r{
         tree\s(?<tree>[a-fA-F0-9]{40})\n
-            # tree SHA
         (?<parents>(?:parent\s[a-fA-F0-9]{40}\n)*)
-            # parent SHAs
         author\s
             (?<author_name>[^<]*)\s
             <(?<author_email>[^>]*)>\s
             (?<author_timestamp>\d+\s[+-]\d{4})\n
-            # author name, email, timestamp
         committer\s
             (?<committer_name>[^<]*)\s
             <(?<committer_email>[^>]*)>\s
             (?<committer_timestamp>\d+\s[+-]\d{4})\n\n
-            # committer name, email, timestamp
-        (.*)
-            # commit message
+        (?<comment>.*)
     }mx)
 
     # the actual code:
