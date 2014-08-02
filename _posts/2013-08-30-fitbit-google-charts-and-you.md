@@ -62,7 +62,7 @@ It turns out the JavaScript isn't overly complex:
 
   <!-- ... -->
 </body>
-<script type="text/javascript" src="fitbit_data.js"></script>
+<script type="text/javascript" src="fitbit-data.js"></script>
 <script>drawVisualization();</script>
 {% endhighlight %}
 
