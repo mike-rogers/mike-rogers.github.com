@@ -1,0 +1,95 @@
+p.aside {
+    border: 1px solid lightblue;
+    margin: 1em;
+    padding: 1em;
+    background-color: aliceblue;
+}
+
+p.letter {
+    border: 1px solid lightblue;
+    margin: 1em;
+    padding: 1em;
+    background-color: lightyellow;
+    font-style: italic;
+}
+
+sup.citation > span {
+    color: #0645ad;
+    font-style: italic;
+    cursor: pointer;
+}
+
+thead, tbody, tr, th, td {
+   border: 1px solid;
+   padding: 0.5em;
+}
+
+table {
+   margin-bottom: 2em;
+}
+
+.dialog {
+    margin: 0px;
+    padding: 0.5em;
+}
+
+.dialog:nth-of-type(odd) {
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.dialog:nth-of-type(even) {
+    background-color: lightgray;
+}
+
+.dialog span {
+    margin-left: 5em;
+    display: block;
+}
+
+.dialog strong {
+    display: inline-block;
+    width: 5em;
+    float: left;
+    height: 100%;
+}
+
+table.pdu_board td {
+    border-style: none solid;
+}
+
+table.pdu_board tbody tr {
+    border: none;
+}
+
+div.pdu {
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+}
+
+div.pdu_book {
+    background-color: lightcyan;
+}
+
+div.pdu_blog {
+    background-color: lightsalmon;
+}
+
+div.pdu_project {
+    background-color: khaki;
+}
+
+div.pdu_research {
+    background-color: lavender;
+}
+
+div.pdu_key {
+    padding: 0.25em;
+    border: 1px solid black;
+    width: 6em;
+    text-align: center;
+    display: inline-block;
+}

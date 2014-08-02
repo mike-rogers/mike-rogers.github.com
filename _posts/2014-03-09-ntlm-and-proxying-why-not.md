@@ -37,18 +37,18 @@ Regardless, PhantomJS doesn't support NTLM, so I wrote this proxy thing.
 
 So inside your test code you would apply something like this whenever you were fetching a URL:
 
-```C#
+{% highlight csharp %}
 using (var proxy = new NtlmProxy(new Uri("http://localhost:8081/"), 3999))
 {
     webDriver.Navigate().GoToUrl("http://localhost:3999/some/page.html");
 
     // Exercise page.html's acceptance tests
 }
-```
+{% endhighlight %}
 
 This of course passes in the credentials of the user running the test, which may not be ideal. To use a different user, check out [SimpleImpersonation](https://github.com/mj1856/SimpleImpersonation). Using this nice little package, adding impersonation to the above code looks like this:
 
-```C#
+{% highlight csharp %}
 using (var proxy = new NtlmProxy(new Uri("http://localhost:8081/"), 3999))
 using (Impersonation.LogonUser(domain, username, password, LogonType.Interactive))
 {
@@ -56,7 +56,7 @@ using (Impersonation.LogonUser(domain, username, password, LogonType.Interactive
 
     // Exercise page.html's acceptance tests
 }
-```
+{% endhighlight %}
 
 ## The Outcome
 

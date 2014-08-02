@@ -10,27 +10,36 @@ tags: []
 
 It's that time again! That time where I pull a message out of the Bag of Lost Souls and help one lucky individual overcome their technical impediments.
 
-Today's email is from José:
+Today's email is from Jose:
 
-<p class="letter">My client is panicking and needs to pull every version of every file from their SharePoint site, and there are hundreds of thousands of entries in the version histories! Can you help me come up with a solution in C#?</p>
+My client is panicking and needs to pull every version of every file from their SharePoint site, and there are hundreds of thousands of entries in the version histories! Can you help me come up with a solution in C#?
+{: .letter}
 
-José and I had the following conversation:
+Jose and I had the following conversation:
 
-<p class="dialog"><strong>[M]</strong> <span>Hello, José!</span></p>
+**[M]** Hello, Jose!
+{: .dialog}
 
-<p class="dialog"><strong>[J]</strong> <span>Hi! Is this about the SharePoint question I sent in? Because that was like two months ago.</span></p>
+**[J]** Hi! Is this about the SharePoint question I sent in? Because that was like two months ago.
+{: .dialog}
 
-<p class="dialog"><strong>[M]</strong> <span>Yeah, I spent a few weeks brushing up on my Spanish. You know, I studied Spanish in high school! Which was barely even 15 years ago!</span></p>
+**[M]** Yeah, I spent a few weeks brushing up on my Spanish. You know, I studied Spanish in high school! Which was barely even 15 years ago!
+{: .dialog}
 
-<p class="dialog"><strong>[J]</strong> <span>That's... great, I guess? Look, I already solved this particular problem, so...</span></p>
+**[J]** That's... great, I guess? Look, I already solved this particular problem, so...
+{: .dialog}
 
-<p class="dialog"><strong>[M]</strong> <span>All right, here we go! ¿Cómo puedo ayudarte?</span></p>
+**[M]** All right, here we go! Como puedo ayudarte?
+{: .dialog}
 
-<p class="dialog"><strong>[J]</strong> <span>Um, I don't actually speak Spanish? I'm named after my mother's father, who was from Argentina and immigrated with his family when he was 8.</span></p>
+**[J]** Um, I don't actually speak Spanish? I'm named after my mother's father, who was from Argentina and immigrated with his family when he was 8.
+{: .dialog}
 
-<p class="dialog"><strong>[M]</strong> <span>¿Tienes preguntas sobre la Shara-Punta?</span></p>
+**[M]** Tienes preguntas sobre la Shara-Punta?
+{: .dialog}
 
-<p class="dialog"><strong>[J]</strong> <span>"Shara-Punta"? There's no way that's right. Like I said, I already solved the problem. Look, here's the code I wrote:</span></p>
+**[J]** "Shara-Punta"? There's no way that's right. Like I said, I already solved the problem. Look, here's the code I wrote:
+{: .dialog}
 
 {% highlight csharp %}
 using Microsoft.SharePoint.Client;
@@ -68,23 +77,29 @@ foreach (var file in files) {
 }
 {% endhighlight %}
 
-<p class="dialog"><strong>[M]</strong> <span>No estoy seguro que uh, este código ... what? I mean, ¿qué?</span></p>
+**[M]** No estoy seguro que uh, este codigo ... what? I mean, que?
+{: .dialog}
 
-<p class="dialog"><strong>[J]</strong> <span>Yeah, the only tricky part was I had to keep calling <code>clientContext.ExecuteQuery()</code> for every server-side operation I wanted to do, otherwise I didn't have access to the objects I wanted.</span></p>
+**[J]** Yeah, the only tricky part was I had to keep calling <code>clientContext.ExecuteQuery()</code> for every server-side operation I wanted to do, otherwise I didn't have access to the objects I wanted.
+{: .dialog}
 
-<p class="dialog"><strong>[M]</strong> <span>¡De verdad!</span></p>
+**[M]** De verdad!
+{: .dialog}
 
-<p class="dialog"><strong>[J]</strong> <span>Also, I had to download the SharePoint Client Object Model Redistributable for the version of SharePoint I have installed, <a href="http://www.microsoft.com/en-us/download/details.aspx?id=21786">2010</a>.</span></p>
+**[J]** Also, I had to download the SharePoint Client Object Model Redistributable for the version of SharePoint I have installed, [2010](http://www.microsoft.com/en-us/download/details.aspx?id=21786).
+{: .dialog}
 
-<p class="dialog"><strong>[M]</strong> <span>¡Fabuloso!</span></p>
+**[M]** Fabuloso!
+{: .dialog}
 
-<p class="dialog"><strong>[J]</strong> <span>So, uh, if you don't mind, I have newer problems that I have to go solve...</span></p>
+**[J]** So, uh, if you don't mind, I have newer problems that I have to go solve...
+{: .dialog}
 
-<p class="dialog"><strong>[M]</strong> <span>When you need help with those, feel free to submit to the Mailbag! "El Bago de Mail"!</p>
+**[M]** When you need help with those, feel free to submit to the Mailbag! "El Bago de
+{: .dialog}
 
-<p class="dialog"><strong>[J]</strong> <span>*** has gone offline</span></p>
-
-<br/>
+**[J]** *** has gone offline
+{: .dialog}
 
 ## Results
 

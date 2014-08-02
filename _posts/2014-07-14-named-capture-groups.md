@@ -19,13 +19,13 @@ But there was a problem.
 It's one thing to write a regular expression. It's quite another to use it in a way that the code's maintainer doesn't track you down, slather you with pork drippings and leave you to the wolves. Take a look at this:
 
 {% highlight ruby %}
-    matches = some_text.match(%r{
-        tree\s([a-fA-F0-9]{40})\n
-        ((?:parent\s[a-fA-F0-9]{40}\n)*)
-        author\s([^<]*)\s<([^>]*)>\s(\d+\s[+-]\d{4})\n
-        committer\s([^<]*)\s<([^>]*)>\s(\d+\s[+-]\d{4})\n\n
-        (.*)
-    }mx)
+matches = some_text.match(%r{
+    tree\s([a-fA-F0-9]{40})\n
+    ((?:parent\s[a-fA-F0-9]{40}\n)*)
+    author\s([^<]*)\s<([^>]*)>\s(\d+\s[+-]\d{4})\n
+    committer\s([^<]*)\s<([^>]*)>\s(\d+\s[+-]\d{4})\n\n
+    (.*)
+}mx)
 {% endhighlight %}
 
 This is a regular expression (and not a very good one) that matches a Git commit string, which looks something like this:
