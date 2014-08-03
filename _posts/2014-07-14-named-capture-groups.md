@@ -4,7 +4,6 @@ title: "Named Capture Groups are Awesome and You Can Too"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 ## Regular expressions make you a better person
 

@@ -4,7 +4,6 @@ title: "Coding JavaScript Can Almost Be Made Bearable"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 ## JavaScript? More like... NOT... vaScript
 So listen. I'm not a huge fan of JavaScript. I dislike the lack of namespaces, the lack of a decent (for certain values of "decent") standard library, the general wonkiness of the `this` keyword, the way expressions can fail silently, bizarre scoping rules, and the general lack of safety I feel when I personally code in it.

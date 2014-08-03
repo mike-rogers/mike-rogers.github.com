@@ -4,7 +4,6 @@ title: "Amateur Hardware Hackery"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 ## Genesis
 

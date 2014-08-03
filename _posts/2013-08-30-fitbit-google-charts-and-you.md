@@ -4,7 +4,6 @@ title: "FitBit, Google Charts, and Frenetic Pacing"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script type="text/javascript"> 

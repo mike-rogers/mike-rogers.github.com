@@ -4,7 +4,6 @@ title: "Thanks, boss"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 I once worked for a manager who had two tools in his toolbox. He could order pizzas, and he could threaten developers with termination.
 

@@ -4,7 +4,6 @@ title: "Reader Mailbag: So You Want to SharePoint"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 # Reader Mailbag
 

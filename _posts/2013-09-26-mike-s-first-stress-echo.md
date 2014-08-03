@@ -4,7 +4,6 @@ title: Mike and his First Stress Echo
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 ## Genesis
 
