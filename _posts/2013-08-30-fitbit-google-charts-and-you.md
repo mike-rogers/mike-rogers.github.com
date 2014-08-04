@@ -5,11 +5,6 @@ category:
 tags: []
 ---
 
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript"> 
-  google.load('visualization', '1', {packages: ['corechart']});
-</script>
-
 ## Impetus
 
 A few months ago I invested in a [FitBit pedometer](http://www.fitbit.com/one) to help me answer the questions everyone asks themselves:
@@ -124,8 +119,6 @@ function handleQueryResponse(response) {
 ### Step Three: OPTIMIZE
 
 <div id="visualization"></div>
-<script type="text/javascript" src="/assets/js/fitbit_data.js"></script>
-<script>drawVisualization();</script>
 
 At the time of this writing, my steps are increasing at a good pace. Give me a few weeks; I'll injure my back again and we can get back to normal.
 
@@ -134,3 +127,16 @@ At the time of this writing, my steps are increasing at a good pace. Give me a f
 By standing on the shoulders of giants I have built a monument to laziness. Look on my works, ye Active, and despair!
 
 <p class="aside"><strong>Aside</strong>: Incidentally, my wife has <em>no problem</em> doubling or tripling my daily step count. She'll often check her count at some point in the day and, with a note of surprise in her voice, say "huh! 23,000 steps!" Someday I will top her step count and immediately be arrested for running down the street shouting about how I finally beat my wife.</p>
+
+<script type="text/javascript">
+    (function () {
+	  $.getScript("http://www.google.com/jsapi").done(function () {
+	    var callback = function () {
+		  drawVisualization();
+	    };
+
+        google.load('visualization', '1', {packages: ['corechart'], callback: callback});
+	  });
+    })();
+</script>
+<script type="text/javascript" src="/assets/js/fitbit-data.js"></script>
