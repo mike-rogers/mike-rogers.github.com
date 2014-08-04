@@ -15,7 +15,7 @@ Nngh.
 
 ## Deferred Loading of JavaScript
 
-There are a few ways to get JavaScript to download in the background, letting your page continue to be rendered by the browser. I'll cover each individually in order of descending Kummerspeck.
+There are a few ways to get JavaScript to download in the background while your page continues to be rendered by the browser. I'll cover each individually in order of descending [Kummerspeck](http://en.wiktionary.org/wiki/Kummerspeck).
 
 ### The `async` keyword
 
