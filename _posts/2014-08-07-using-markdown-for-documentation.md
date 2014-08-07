@@ -44,44 +44,9 @@ Oh, all of the editing is done in some inscrutable template that was designed fo
 
 Markdown lowers the amount of overhead.
 
-## What is MarkDown?
+If you're not familiar with MarkDown, there's a little bit of information about it under the rest of the post. Go look! But after you read about the results of using MarkDown on a Real World Project.
 
-[MarkDown](http://daringfireball.net/projects/markdown/) is a markup syntax that lets you separate your document into a source file (written in MarkDown) and a generated presentation file (which can be HTML, PDF, Word, and probably others).
-
-Suddenly documentation is barely different than code. The source file can be kept in source control alongside your code. Since the markup is terse, it's not challenging to review it using the same tools already in place for code reviews. And to release the document (or generate an artifact) you simply run the MarkDown through a document converter and do whatever you will with the generated HTML, Word, or PDF file (probably store it in the wrong SharePoint folder) (no, I'm not bitter).
-
-## Flavors?
-
-MarkDown has a few 'flavors', or slight variations of syntax. Among my favorites are:
-
-* [kramdown](http://kramdown.gettalong.org/quickref.html), a Ruby-specific MarkDown library that is used as the default in [Jekyll](http://jekyllrb.com/)
-* [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
-* [PanDoc](http://johnmacfarlane.net/pandoc/)
-
-The core of each of these projects is very similar to vanilla MarkDown. `kramdown` adds support for filling the generated HTML with `class` and `id` attributes. GFM adds quite a bit to do with code formatting (as you can imagine). Pandoc includes a bit of hefty support for tables.
-
-# Tools
-
-"But Mike," I'm making you say, "what about tools for MarkDown?" Wow. I can make you say anything! "Mike, you're super-handsome and your freshly laundered scent is beyond reproach!" Writing is awesome.
-
-## Editors
-
-Because the text is fairly plain you can use whatever editor you want when editing the MarkDown.
-
-* [Sublime](http://www.sublimetext.com/) has a module for [MarkdownEditing](https://sublime.wbond.net/packages/MarkdownEditing)
-* Emacs has [markdown-mode](http://jblevins.org/projects/markdown-mode/), which should be installed through `package-list-packages` you heathen
-* Visual Studio has a [Markdown Mode](http://visualstudiogallery.msdn.microsoft.com/0855e23e-4c4c-4c82-8b39-24ab5c5a7f79) extension that isn't too shabby
-* `vim` has something... probably? I dunno, I'm not going to google 'vim'. You do it. You google 'vim'.
-
-## Renderers
-
-There are lots of options here, depending on what flavor you've chosen:
-
-* [PanDoc](http://johnmacfarlane.net/pandoc/) can generate Word, HTML, and PDFs. If you're on Windows, you'll need to install LaTeX as well (the site recommends [MiKTeX](http://miktex.org/)), and on Windows both can be installed through [Chocolatey](https://chocolatey.org/)
-* [Doxygen](http://en.wikipedia.org/wiki/Doxygen) supports MarkDown in comments to some extent
-* Want to see what your GitHub MarkDown looks like before you commit it to GitHub? Check out [grip](https://github.com/joeyespo/grip). I don't have this one running on Windows, but I like the way it works on my Ubuntu VM.
-
-# Results
+## Results of using MarkDown on a Real World Project
 
 (Thanks to [git_stats](https://github.com/tomgi/git_stats) for generating me some sweet statistics)
 
@@ -124,3 +89,45 @@ One of the biggest reservations of using MarkDown was the inability to use the c
 Originally I had a dream of everyone using LaTeX, because LaTeX makes me feel warm and fuzzy. MarkDown was a compromise that seemed to work out pretty well. The first team adopted the approach pretty readily, and there were no mutinies, so I consider the experiment a resounding success.
 
 I'm curious to know impressions, feedback, if you've tried this on your project, how it went, etc. Comments are appreciated! And mandatory! If you don't comment I'm going to stand behind your chair staring at you until you do.
+
+----
+
+# MarkDown information!
+
+## What is MarkDown?
+
+[MarkDown](http://daringfireball.net/projects/markdown/) is a markup syntax that lets you separate your document into a source file (written in MarkDown) and a generated presentation file (which can be HTML, PDF, Word, and probably others).
+
+Suddenly documentation is barely different than code. The source file can be kept in source control alongside your code. Since the markup is terse, it's not challenging to review it using the same tools already in place for code reviews. And to release the document (or generate an artifact) you simply run the MarkDown through a document converter and do whatever you will with the generated HTML, Word, or PDF file (probably store it in the wrong SharePoint folder) (no, I'm not bitter).
+
+## Flavors?
+
+MarkDown has a few 'flavors', or slight variations of syntax. Among my favorites are:
+
+* [kramdown](http://kramdown.gettalong.org/quickref.html), a Ruby-specific MarkDown library that is used as the default in [Jekyll](http://jekyllrb.com/)
+* [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
+* [PanDoc](http://johnmacfarlane.net/pandoc/)
+
+The core of each of these projects is very similar to vanilla MarkDown. `kramdown` adds support for filling the generated HTML with `class` and `id` attributes. GFM adds quite a bit to do with code formatting (as you can imagine). Pandoc includes a bit of hefty support for tables.
+
+# Tools
+
+"But Mike," I'm making you say, "what about tools for MarkDown?" Wow. I can make you say anything! "Mike, you're super-handsome and your freshly laundered scent is beyond reproach!" Writing is awesome.
+
+## Editors
+
+Because the text is fairly plain you can use whatever editor you want when editing the MarkDown.
+
+* [Sublime](http://www.sublimetext.com/) has a module for [MarkdownEditing](https://sublime.wbond.net/packages/MarkdownEditing)
+* Emacs has [markdown-mode](http://jblevins.org/projects/markdown-mode/), which should be installed through `package-list-packages` you heathen
+* Visual Studio has a [Markdown Mode](http://visualstudiogallery.msdn.microsoft.com/0855e23e-4c4c-4c82-8b39-24ab5c5a7f79) extension that isn't too shabby
+* `vim` has something... probably? I dunno, I'm not going to google 'vim'. You do it. You google 'vim'.
+
+## Renderers
+
+There are lots of options here, depending on what flavor you've chosen:
+
+* [PanDoc](http://johnmacfarlane.net/pandoc/) can generate Word, HTML, and PDFs. If you're on Windows, you'll need to install LaTeX as well (the site recommends [MiKTeX](http://miktex.org/)), and on Windows both can be installed through [Chocolatey](https://chocolatey.org/)
+* [Doxygen](http://en.wikipedia.org/wiki/Doxygen) supports MarkDown in comments to some extent
+* Want to see what your GitHub MarkDown looks like before you commit it to GitHub? Check out [grip](https://github.com/joeyespo/grip). I don't have this one running on Windows, but I like the way it works on my Ubuntu VM.
+
