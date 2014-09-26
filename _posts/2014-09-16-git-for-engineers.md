@@ -5,6 +5,10 @@ category:
 tags: []
 ---
 
+* {: .active} [Part 1: Commits]({% post_url 2014-09-16-git-for-engineers %})
+* [Part 2: The Stage]({% post_url 2014-09-26-git-for-engineers-ii %})
+{: .pagination}
+
 ## Context
 
 It took me about a year to become comfortable with Git.
