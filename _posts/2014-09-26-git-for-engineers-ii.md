@@ -35,7 +35,7 @@ Nothing happens.
 **Staging** is the intermediate step where you select the individual files you want to include in your commit. This may seem like an overcomplication to the commit process ("why not just include _everything_?"), but I enjoy the low level of granularity. It gives you the freedom to individually and explicitly build what your commit looks like, giving you a level of control beyond the previous generation of source code management software (I'm looking at *you*, CVS).
 
 **Aside**: One of the absolute strengths of *any* Source Code Management software (and especially Git) is the ability to craft your commits to be *valuable*, for a certain definition of *value*. Those who are using an SCM more casually may typically just have a throwaway commit message (sometimes even gibberish) associated with an arbitrary snapshot of the code ("I haven't committed in a while"). In more rigorous environments, commits can represent a highly regimented snapshot of work being done, traceable to a code review, a task in an [ALM](http://en.wikipedia.org/wiki/Application_lifecycle_management) tool (such as [JIRA](https://www.atlassian.com/software/jira) or [TFS](http://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx)), a set of tests, and even a formal requirement. Additionally, I try to `squash` commits strategically to make sure that every commit makes sense in the context of current development, cleaning any 'convenience commits' I may have made along the way (the `squash` operation will be covered in a later part).
-{: .aside}\
+{: .aside}
 
 Now, I said that the stage is _intermediate_. It's important to understand that the stage represents one of three _very distinct_ and _very important_ sets of the files in the context of your repository:
 
