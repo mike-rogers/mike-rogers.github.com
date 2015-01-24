@@ -40,7 +40,7 @@ We'll say that Fizz Buzz can be implemented in 1 unit of time (or "point", if yo
 
 ## Okay. Now what?
 
-Now we're free to make stupid extrapolations, which in my experience is what people love to do with points. My work rate is 8 hours per point. My teammate is 2 hours per point. We should be able to do 25 points a week, after some assumptions, right?
+Now we're free to make stupid extrapolations, which in my experience is what people love to do with points[^2]. My work rate is 8 hours per point. My teammate is 2 hours per point. We should be able to do 25 points a week, after some assumptions, right?
 
 Slow down there, champ! All we've done is say "this unit of work can be done in one point". Let's look at another, larger amount of work. Like, say, implement a REST endpoint in Spring MVC that touches a database backend.
 
@@ -54,9 +54,9 @@ Now we can start collecting data!
 
 Yeah, this doesn't work without actual data.
 
-Finish up a sprint or five and take a look at how many points of work you finished, on average (per sprint). That's your [velocity](http://guide.agilealliance.org/guide/velocity.html). If you're feeling adventurous you can feel free to apply this to future work, make committments on it, or even (if your backlog supports it) estimate when your project will be done.
+Finish up a sprint or five and take a look at how many points of work you finished, on average (per sprint). That's your [velocity](http://guide.agilealliance.org/guide/velocity.html). If you're feeling adventurous you can feel free to apply this to future work, make commitments on it, or even (if your backlog supports it) estimate when your project will be done.
 
-No, go ahead and do it. Tell your manager. It'll be awesome[^2]!
+No, go ahead and do it. Tell your manager. It'll be awesome[^3]!
 
 Where I'm most comfortable is taking a look at the team velocity and using it **only** as a **starting point** in two discussions: estimation and retrospective.
 
@@ -70,7 +70,7 @@ In retrospectives, look at the number of points you finished during your latest 
 
 Trying to measure something smaller? Something more granular? Within the boundary of a sprint? You probably don't want points.
 
-In the context of a single sprint, do you want to measure whether or not you're on track? Points may make sense, they may not. Did you pull in 10 points for this sprint[^3]? If your sprints are two weeks long, that's one point per day. But if you're off by a single point, that's 10% [above the line](http://en.wikipedia.org/wiki/Burn_down_chart). Will that make you panic? It would me. _Should_ that make you panic? Probably not.
+In the context of a single sprint, do you want to measure whether or not you're on track? Points may make sense, they may not. Did you pull in 10 points for this sprint[^4]? If your sprints are two weeks long, that's one point per day. But if you're off by a single point, that's 10% [above the line](http://en.wikipedia.org/wiki/Burn_down_chart). Will that make you panic? It would me. _Should_ that make you panic? Probably not.
 
 What if you have 40 points for a 2-week sprint? A burndown may make sense here. On day 3 you've completed 11 points. That's only 2.5% above the line, which I'm comfortable dismissing. Day 4 ends and you still only have 11 points. Now we're at 12.5% and it may be time for conversations.
 
@@ -80,15 +80,16 @@ I don't know, man. Do what makes sense for your team.
 
 I feel dirty after that last section. Look at all that talk about points and percentages and lines and progress. That's all meta -- orthogonal to Getting Things Done. But at some level you have to meta if you want to have a shot at guessing _when_ Things will Get Done. And if you're getting paid to develop software, _someone_ wants to know a "when".
 
-So be careful. Points come with baggage. Some[^4] don't like them. Some abuse them[^5]. They're an invitation to [bikeshed](http://en.wikipedia.org/wiki/Parkinson%27s_law_of_triviality). Time spent discussing and assigning points is time **not** spent on development. So go into the pointing session understanding that it's not about the points.
+So be careful. Points come with baggage. Some[^5] don't like them. Some abuse them[^6]. They're an invitation to [bikeshed](http://en.wikipedia.org/wiki/Parkinson%27s_law_of_triviality). Time spent discussing and assigning points is time **not** spent on development. So go into the pointing session understanding that it's not about the points.
 
-It's about [way more important things](https://www.youtube.com/watch?v=7PCkvCPvDXk)[^6].
+It's about [way more important things](https://www.youtube.com/watch?v=7PCkvCPvDXk)[^7].
 
 ----
 
 [^1]: The [SI Unit](http://en.wikipedia.org/wiki/International_System_of_Units) for quantity of Internets, named after the [inventor of the Internet](http://en.wikipedia.org/wiki/Al_Gore_and_information_technology).
-[^2]: Do not do this. It will not be awesome.
-[^3]: My, what big points you have!
-[^4]: Really, I assume everyone dislikes them as much as I do.
-[^5]: [Some](https://twitter.com/rpherbig) even use them to make [puns](https://www.youtube.com/watch?v=VKcAYMb5uk4).
-[^6]: You're welcome.
+[^2]: To be fair, I've only seen one guy do something this egregious, and he was kind of a jerk. But I do see a lot of people use points where it doesn't strictly make sense.
+[^3]: Do not do this. It will not be awesome.
+[^4]: My, what big points you have!
+[^5]: Really, I assume everyone dislikes them as much as I do.
+[^6]: [Some](https://twitter.com/rpherbig) even use them to make [puns](https://www.youtube.com/watch?v=VKcAYMb5uk4).
+[^7]: You're welcome.
