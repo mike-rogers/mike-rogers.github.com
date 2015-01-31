@@ -115,7 +115,7 @@ If you made it this far, let me know. I've rewritten this post like five times t
 
 You gotta be invested.
 
-I've read lots of [studies](#fill-in) on pairing, and the one consistent thread is that you have to practice to see yields. One study noted that, for established pairs, the effort for a task only increases by 15% when adding a second developer. FIFTEEN PERCENT. And that's **effort**. The duration nearly halves, and the quality skyrockets.
+I've read lots of [studies](https://github.com/mike-rogers/mike-rogers.github.com/blob/master/_bibliography/pairing.bib) on pairing, and the one consistent thread is that you have to practice to see yields. One study noted that, for established pairs, the effort for a task only increases by 15% when adding a second developer. FIFTEEN PERCENT. And that's **effort**. The duration nearly halves, and the quality skyrockets.
 
 And it's uncomfortable, initially. I spent the first 10 years of my career sitting alone in a dark room shouting angrily at my compiler because How Dare It Presume and then being privately mortified because Oh Of Course and now you want me to do that in a well lit office with _another human being_? While wearing _slacks_? Of course it's uncomfortable.
 
