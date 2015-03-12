@@ -5,7 +5,7 @@ category:
 tags: []
 ---
 
-This post is brought to you by a conversation with Matt Terry. Remember, _there's no OG like the MCT_.
+This post is brought to you by a conversation with Matt Terry. Remember, _there's no OG like the MCT_. _Fresh money_.
 {: .aside}
 
 Let me tell you the story about the coolest bug I've ever fixed and how I learned next to nothing from it until about two years later. Well, I mean, you don't _have_ to let me tell you. I'm going to anyway.
