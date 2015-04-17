@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/mikerogers_
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mike-rogers.github.io
+  * I am mikerogers_ (https://keybase.io/mikerogers_) on keybase.
+  * I have a public key with fingerprint 3A60 8E72 5005 3842 6DF4  8AF2 5353 685C 89ED 1DD0
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "3a608e72500538426df48af25353685c89ed1dd0",
+            "host": "keybase.io",
+            "key_id": "5353685C89ED1DD0",
+            "uid": "3253c054ff8946e3f7c1f303c081fb19",
+            "username": "mikerogers_"
+        },
+        "merkle_root": {
+            "ctime": 1429235168,
+            "hash": "049abcf1c7ab1da97f1de4b800d28d3111672979167e28993be2d4240776d00944ddae15b85b97bee8ec72a0ebd9f79ecfec8f750cf13d0a2a7ce3da5636f295",
+            "seqno": 204510
+        },
+        "service": {
+            "hostname": "mike-rogers.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1429235311,
+    "expire_in": 157680000,
+    "prev": "be025e8622bed1506fbbcddbf1f5c2a6aa212e5ffba843e5f564b911742a4591",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.13 (MingW32)
+
+owFVkntQFVUcxy8PUQgC0cIuOcKSOuUFz753SQf1XnQmRSLFcCQu+zjLXR53Yffy
+uNIljEQYmnSgHEsIjSxUbJB4TaiFD4aiAaGZnLQcMGgkxDHKcgitXaRJ/9qz53zO
+9/f9/n7nQJCPydtr2zZHauXk0stefeO8KRlISjHCK6IbiS1GhGwZOl3GysnlQCQW
+yYJuntNgjKxEOBURxmRqEXOMBSmAqiYrTp0CMXQMjXgsBm5clmRnBlRzVdnQQnCO
+AgykMRIAEmcIjBIlguEkjMRJnGJIgWGhiIoi0CUdiuZ6rCoyq2mXRX13jrcybLwN
+tdkMPn/2ANelBEASksSwBAVxiRZQCQf6HoNKPMoaoAbVuUg5chZUFd2fZjcs50A1
+KxvaVUWZzS24ZINCCYzFcBKlGN0UpzmMkATL8YKECjTHoyLH0hIqQoJnABAxRsRR
+FKVojKVZ/QMxhmVxHmIigRGApikRAJYgRJGDKMkzJM/SPIQMFGiMA5AXWYlmoSBB
+gZFoEug1cBFwGEcLEBc5ksIpCWNJPYUG85wKEosBgkSBx/hXC2QBGr6Nzj0SMPph
+wpgM2eXI5x82MldVXIqgZOuIw+XK1WIRzxcWxOXONS4VQt4+J2fnZaeoT/DREaN6
+tcdbowe2ILAoV1ahXTYIkqb0XgBgFIIFuiQPAUZChsIwXh8wCSiJ5wVR5CVUIgWM
+ozgOQzFIShLPMQSuL0iK4FkUpQmMI0gW/T8wrtvkMnRJTc5wcq58FSKeSu9nfU1e
+3ia/ed7GGzYF+If897B7wkJMx/sT+/2kz+9Hnu5rW1Uct3jH4ELv6vyvbuUMfJKy
+60pkCHK1vayRDE0yu81JPQmtR9rCUqvMhzpSU4lbZ5unP/XpVzZHteadyGqgJwJ9
+Iw+uPOW9VnKv7rN83Mj6o5XfvB5R0dB+Kbaxp77pdonnTnFdS6bZzQ2p8LprZw+o
+n7rvOOxckeap7ptqDLA+eGPBTethi3V7d5zzNIy8mxy4xXzMUnSvM7NCa7rh37ms
+Njym1nr5n/T5DUtTRtfHPxdMeu1eNrHuGrCcO/Dm7/N/CXo1tjdq8/D+Sn+foIuh
+Z8teTC9fseb8yzPrnrgQqbZ3ukcmvXIKV3X5/bDy+ZMBIZsqly+c1xl/CfV5dzD6
+A7wq+ETHULNateRGW9d3yXHtiW3DL+xKMH/ZlBZ6d/vEM7/uOPpRxhmrwypxi0o3
+hRzPXh3Y1NLSfHDBX9GdI0++Vr28ZO/Ue5ndY99O9/4pLxryDNy01gyjPgPjG6gt
+4yZHtnalLO9C98bR/tFu3/X2liywtQR8eOgPD2RsnfWnTiLX1XeYZumnjqg6U0pa
++pHprUl7p7WsrnOjFVdLx8p3hrs/2+P3W21f7+TUj4UJwe/Tx8C1zBklYN8olf79
+31/fqduYczv1pYvlYaU/h64f4djdR59iW6fI1iWFRZbSmX2v3CvwOz/49BqbreYB
+WFsz9lb4mbf3JC7eb/sX
+=39AJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mikerogers_
+
+==================================================================
