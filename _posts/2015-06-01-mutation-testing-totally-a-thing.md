@@ -11,7 +11,7 @@ Mutation testing is a way to verify that your code is covered by tests.
 
 ### Oh? Go on...
 
-"What, like code coverage?" you may ask. Or, you may say "you want me to test my tests? That's stupid. You're stupid" which is not dissimilar from my reactions to mutation testing when I first heard of it.
+"What, like code coverage?" you may ask. Or, you may say "you want me to test my tests? That's stupid. You're stupid" which are not dissimilar from my reactions to mutation testing when I first heard of it.
 
 Or maybe you're not as vitriolic as I am. Moving on.
 
@@ -45,9 +45,9 @@ Here's why I disliked mutation testing.
 
 My first experience was with a .NET application written for the configuration of a medical device, so we're talking Regulatory Overhead, with I-triple-Es and FDAs and so forth. A combination of a massive, massive codebase and correspondingly huge test corpus meant that the mutation testing had to be distributed and it still took over a day.
 
-That's a long time to wait for feedback, but I could see the value there. A misconfiguration of the medical device could result in a human death. I'll take a longer feedback loop to avoid that.
+That's a long time to wait for feedback, but if it were a valuable metric I could wait. A misconfiguration of the medical device could result in a human death. I'll take a longer feedback loop to avoid that.
 
-But it was frustrating to me because I couldn't understand the value proposition. It was just Yet Another Metric to abide by (although we never got so far as to add it to the process) without an explanation of how to use it properly.
+But it was frustrating to me because I couldn't understand the value of the metric. It just seemed like Yet Another Measurement to abide by (although we never got so far as to add it to the process) without an explanation of how to use it properly.
 
 My second experience was in JavaScript space, where my team was asked to adhere to 100% mutation-free code. This seemed less valuable initially because human lives weren't on the line (to be trite). Also, I [really](https://mike-rogers.github.io/2013/08/21/testing-in-javascript) [dislike](https://mike-rogers.github.io/2014/08/04/javascript-deferred-loading-migraines-and-you) [JavaScript](https://mike-rogers.github.io/2014/08/22/failed-experiment-testing-javascript) so the more I have to play in it the less comfortable I am.
 
@@ -99,7 +99,7 @@ The refactoring went over well enough, and then I looked into re-running the mut
 
 The generated report showed no change in coverage, which is exactly what I wanted to see. All the refactored code was covered by the existing tests.
 
-This experience was pretty transformative. It showed me how to use the tool to gain confidence in my refacoring, and that lead to a great deal of comfort in the output.
+This experience was pretty transformative. It showed me how to use the tool to gain confidence in my refactoring, and that lead to a great deal of comfort in the output.
 
 ## Conclusions
 
