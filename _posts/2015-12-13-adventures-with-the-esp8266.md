@@ -62,11 +62,6 @@ Next, let's look at some source code!
 const char* ssid = "Your SSID here";
 const char* password = "Your password here";
 
-const String HTMLout = R"=====(
-             <a href="./on">[ ON ]</a>
-             <a href="./off">[ OFF ]</a>
-             )=====";
-
 ESP8266WebServer server(80);
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
