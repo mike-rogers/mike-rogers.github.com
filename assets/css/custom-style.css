@@ -93,3 +93,21 @@ div.pdu_key {
     text-align: center;
     display: inline-block;
 }
+
+.dialog-speaker {
+    float: left;
+    clear: both;
+    font-weight: bold;
+    width: 10em;
+    margin-right: 1em;
+    text-align: right;
+}
+
+.dialog-spoken {
+    float: left;
+    width: 50%;
+}
+
+.clear {
+    clear: both;
+}

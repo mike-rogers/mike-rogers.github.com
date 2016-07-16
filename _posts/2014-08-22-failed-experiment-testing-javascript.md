@@ -5,7 +5,7 @@ category:
 tags: []
 ---
 
-Whenever someone hands me a project and says "go lead this" I like to pick a small thing to do differently for the sake of experimentation. On an embedded project I suggested "let's try to do [embedded TDD](http://pragprog.com/book/jgade/test-driven-development-for-embedded-c)", which worked reasonably well. I wrote a few weeks ago about the experiment of [using MarkDown for project documentation](2014-08-04-javascript-deferred-loading-migraines-and-you), which worked reasonably well.
+Whenever someone hands me a project and says "go lead this" I like to pick a small thing to do differently for the sake of experimentation. On an embedded project I suggested "let's try to do [embedded TDD](http://pragprog.com/book/jgade/test-driven-development-for-embedded-c)", which worked reasonably well. I wrote a few weeks ago about the experiment of [using MarkDown for project documentation]({% post_url 2014-08-04-javascript-deferred-loading-migraines-and-you %}), which worked reasonably well.
 
 Actually, those are the only two that I can think of that worked reasonably well.
 
